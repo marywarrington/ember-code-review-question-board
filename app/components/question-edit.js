@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     edit(question) {
       var params = {
         author: this.get('author'),
-        content: this.get('question'),
+        content: this.get('content'),
         extra: this.get('extra'),
       };
       this.set('editQuestionForm', false);

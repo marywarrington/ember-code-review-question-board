@@ -1,4 +1,4 @@
 <div>
-  <h4>{{question.question_author}} asked: {{question.question_content}}</h4>
+  {{#link-to 'question' question.id}}<h4>{{question.question_author}} asked: {{question.question_content}}</h4>{{/link-to}}
 </div>
 <hr>

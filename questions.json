@@ -1,14 +1,14 @@
 { "questions": [{
-    "question_author": "Mary",
-    "question_content": "How much does the moon weigh?",
-    "question_extra": "I'm curious because I'm doing research for a children's book."
+    "author": "Mary",
+    "content": "How much does the moon weigh?",
+    "extra": "I'm curious because I'm doing research for a children's book."
   }, {
-    "question_author": "Jill",
-    "question_content": "Why do humans like charred food (like bbq)?",
-    "question_extra": "Aren't they carcinogens that are bad for us?"
+    "author": "Jill",
+    "content": "Why do humans like charred food (like bbq)?",
+    "extra": "Aren't they carcinogens that are bad for us?"
   }, {
-    "question_author": "Jim",
-    "question_content": "Which kind of bear is best?",
-    "question_extra": "Bears, beets, Battlestar Galactica"
+    "author": "Jim",
+    "content": "Which kind of bear is best?",
+    "extra": "Bears, beets, Battlestar Galactica"
   }]
 }

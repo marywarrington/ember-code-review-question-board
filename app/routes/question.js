@@ -7,15 +7,17 @@ export default Ember.Route.extend({
   actions: {
     edit(question, params) {
       Object.keys(params).forEach(function(key) {
-        if(params[key]!==undefined) {
+        if(params[key]!=="") {
           question.set(key,params[key]);
         }
       });
       question.save();
-      this.transitionTo('question');
+      this.transitionTo('index');
     },
     delete(question) {
-      question.destroyRecord();
+      if (confirm('Are you sure you want to delete this question?')) {
+        question.destroyRecord();
+      }
       this.transitionTo('index');
     }
   }

@@ -1,0 +1,25 @@
+{{#if editQuestionForm}}
+  <h3>Edit Question</h3>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=question.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="question">Question</label>
+        {{input value=question id="question" placeholder=question.content}}
+      </div>
+
+      <div class="form-group">
+        <label for="extra">Extra Information</label>
+        {{input value=extra id="extra" placeholder=question.extra}}
+      </div>
+
+      <button {{action 'edit' question}}>Submit</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'editQuestionForm'}}>Edit Question</button>
+{{/if}}

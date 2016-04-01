@@ -3,9 +3,5 @@
 <p>To see answers and more information, click on a question! To add a question, use the form at the bottom of this page.</p>
 
 {{#each model as |question|}}
-  <div>
-    <h4>{{question.question_author}} asked: {{question.question_content}}</h4>
-    <h5>Extra info: {{question.question_extra}}</h5>
-  </div>
-  <hr>
+  {{question-tile question=question}}
 {{/each}}

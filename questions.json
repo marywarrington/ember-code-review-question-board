@@ -1,14 +1,22 @@
 { "questions": [{
     "author": "Mary",
     "content": "How much does the moon weigh?",
-    "extra": "I'm curious because I'm doing research for a children's book."
+    "extra": "I'm curious because I'm doing research for a children's book.",
+    "comments": [{}]
   }, {
     "author": "Jill",
     "content": "Why do humans like charred food (like bbq)?",
-    "extra": "Aren't they carcinogens that are bad for us?"
+    "extra": "Aren't they carcinogens that are bad for us?",
+    "comments": [{}]
   }, {
     "author": "Jim",
     "content": "Which kind of bear is best?",
-    "extra": "Bears, beets, Battlestar Galactica"
-  }]
+    "extra": "Bears, beets, Battlestar Galactica",
+    "comments": [{}]
+  }],
+  "answers": [{
+    "answerer": "Beth",
+    "answer": "Black bears",
+    "question": [{}]
+    }]
 }

@@ -4,3 +4,9 @@
 
 <button {{action 'delete' model}}>Delete</button>
 {{question-edit question=model edit="edit"}}
+{{new-answer save="save" question=model}}
+
+<h3>Answers</h3>
+{{#each model.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}

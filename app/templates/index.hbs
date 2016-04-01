@@ -2,7 +2,7 @@
 
 <p>To see answers and more information, click on a question! To add a question, use the form at the bottom of this page.</p>
 
-{{#each model as |question|}}
+{{#each model.questions as |question|}}
   {{question-tile edit="edit" question=question delete="delete"}}
 {{/each}}
 

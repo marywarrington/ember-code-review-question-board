@@ -9,11 +9,11 @@ export default Ember.Component.extend({
 
     save() {
       var params = {
-        author: this.get('author') ? this.get('author') : "",
-        question: this.get('question') ? this.get('question') : "",
-        extra: this.get('extra') ? this.get('extra') : "",
+        question_author: this.get('author') ? this.get('author') : "",
+        question_content: this.get('question') ? this.get('question') : "",
+        question_extra: this.get('extra'),
       };
-      this.set('addNewQuestion', false),
+      this.set('addNewQuestion', false);
       this.sendAction('save', params);
     }
   }
